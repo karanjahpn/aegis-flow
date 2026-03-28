@@ -2,7 +2,7 @@
 
 **Self-Verifying Runtime Integrity System with Distributed Trust Anchoring**
 
-[![CI](https://github.com/YOUR_USERNAME/aegis-flow/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/aegis-flow/actions)
+[![CI](https://github.com/karanjahpn/aegis-flow/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/aegis-flow/actions)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://python.org)
 [![Solidity](https://img.shields.io/badge/solidity-0.8.20-purple.svg)](https://soliditylang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
