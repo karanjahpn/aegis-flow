@@ -134,7 +134,7 @@ State_t = SHA256(
 ### 1 — Clone & Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/aegis-flow.git
+git clone https://github.com/karanjahpn/aegis-flow.git
 cd aegis-flow
 
 chmod +x scripts/setup.sh
