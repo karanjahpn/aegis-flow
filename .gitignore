@@ -1,0 +1,48 @@
+# AEGIS-FLOW .gitignore
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.log
+
+# ── Virtual Environments ──────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Secrets ───────────────────────────────────────────────────────────
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ── Logs ──────────────────────────────────────────────────────────────
+logs/
+*.jsonl
+
+# ── Node / Hardhat ────────────────────────────────────────────────────
+node_modules/
+artifacts/
+cache/
+typechain-types/
+coverage/
+
+# ── IDE ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

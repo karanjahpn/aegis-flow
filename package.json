@@ -1,0 +1,30 @@
+{
+  "name": "aegis-flow",
+  "version": "1.0.0",
+  "description": "AEGIS-FLOW Self-Verifying Runtime Integrity System — Smart Contract Layer",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run blockchain/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run blockchain/deploy.js --network sepolia",
+    "deploy:polygon": "hardhat run blockchain/deploy.js --network polygon",
+    "node": "hardhat node",
+    "verify": "hardhat verify"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "security",
+    "blockchain",
+    "ethereum",
+    "integrity",
+    "tee",
+    "enclave",
+    "aegis-flow"
+  ],
+  "license": "MIT",
+  "author": "AEGIS-FLOW Project"
+}
