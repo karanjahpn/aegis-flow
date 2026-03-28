@@ -236,15 +236,15 @@ npm run deploy:local
 Output:
 ```
 AEGIS-FLOW :: Deploying AegisRegistry
-Deployer : 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Deployer : YOUR_WALLET_ADDRESS
 Balance  : 10000.0 ETH
 
 ✅ AegisRegistry deployed!
-   Contract address : 0x5FbDB2315678afecb367f032d93F642f64180aa3
+   Contract address : YOUR_CONTRACT_ADDRESS
    TX hash          : 0xabc...
 
 Add to .env:
-   AEGIS_CONTRACT_ADDRESS=0x5FbDB2315678afecb367f032d93F642f64180aa3
+   AEGIS_CONTRACT_ADDRESS=YOUR_CONTRACT_ADDRESS
 ```
 
 ### Step 3 — Update `.env`
@@ -252,7 +252,7 @@ Add to .env:
 ```bash
 AEGIS_BLOCKCHAIN_ENABLED=true
 AEGIS_RPC_URL=http://127.0.0.1:8545
-AEGIS_CONTRACT_ADDRESS=0x5FbDB2315678afecb367f032d93F642f64180aa3
+AEGIS_CONTRACT_ADDRESS=YOUR_CONTRACT_ADDRESS
 AEGIS_PRIVATE_KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 ```
 
@@ -261,7 +261,7 @@ AEGIS_PRIVATE_KEY=0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2
 ```bash
 python main.py --blockchain \
   --rpc-url http://127.0.0.1:8545 \
-  --contract 0x5FbDB2315678afecb367f032d93F642f64180aa3 \
+  --contract YOUR_CONTRACT_ADDRESS \
   --private-key 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80
 ```
 
